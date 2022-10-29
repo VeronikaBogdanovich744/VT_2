@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="18.0.2.1" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="by.tc.task01.entity.Oven" id="Oven0">
+    <void class="by.tc.task01.entity.Appliance" method="getField">
+     <string>price</string>
+     <void method="set">
+      <object idref="Oven0"/>
+      <int>4</int>
+     </void>
+    </void>
+    <void property="maxHeatTemperature">
+     <double>150.0</double>
+    </void>
+    <void property="minHeatTemperature">
+     <double>60.0</double>
+    </void>
+    <void property="regimes">
+     <int>5</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="by.tc.task01.entity.Refrigerator" id="Refrigerator0">
+    <void class="by.tc.task01.entity.Appliance" method="getField">
+     <string>price</string>
+     <void method="set">
+      <object idref="Refrigerator0"/>
+      <int>2</int>
+     </void>
+    </void>
+    <void property="height">
+     <int>1</int>
+    </void>
+    <void property="maxTemperature">
+     <double>10.0</double>
+    </void>
+    <void property="minTemperature">
+     <double>-20.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="by.tc.task01.entity.Speakers" id="Speakers0">
+    <void class="by.tc.task01.entity.Appliance" method="getField">
+     <string>price</string>
+     <void method="set">
+      <object idref="Speakers0"/>
+      <int>10</int>
+     </void>
+    </void>
+    <void property="cordLength">
+     <int>2</int>
+    </void>
+    <void property="powerConsumption">
+     <double>200.0</double>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
